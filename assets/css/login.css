@@ -1,0 +1,26 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: url('./../images/login_bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.layui-main {
+    margin-top: 20px;
+}
+
+.logoinAndRegBox {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+}
+
+.logoinAndRegBox .titleBox {
+    width: 100%;
+    height: 60px;
+    background: url('./../images/login_title.png') no-repeat center;
+}
