@@ -1,5 +1,5 @@
 $(function () {
-  getUserInof();
+  getUserInfo();
 
   // 退出登录
   $("#btnlogout").on("click", function () {
@@ -17,7 +17,7 @@ $(function () {
   });
 });
 
-function getUserInof() {
+function getUserInfo() {
   $.ajax({
     url: "/my/userinfo",
     // headers: {
